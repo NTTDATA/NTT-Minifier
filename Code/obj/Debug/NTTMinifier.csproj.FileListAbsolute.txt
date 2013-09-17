@@ -1,0 +1,4 @@
+C:\SVN\NTTMinifier\NTTMinifier\bin\Debug\NTTMinifier.dll
+C:\SVN\NTTMinifier\NTTMinifier\bin\Debug\NTTMinifier.pdb
+C:\SVN\NTTMinifier\NTTMinifier\obj\Debug\NTTMinifier.dll
+C:\SVN\NTTMinifier\NTTMinifier\obj\Debug\NTTMinifier.pdb
