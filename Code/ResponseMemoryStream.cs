@@ -33,7 +33,7 @@ namespace NTT.Minifier
             expressionList.Add(new Expression(new Regex(@"^\s+", RegexOptions.Multiline | RegexOptions.Compiled)));
 
             //comment tags excep IE if statements
-            expressionList.Add(new Expression(new Regex(@"<!--(?!\[).*?(?!<\])-->", RegexOptions.Singleline | RegexOptions.Compiled), string.Empty));
+            expressionList.Add(new Expression(new Regex(@"<!--(?!\[[^]+])(?:(?!-->)(?!]-->).)*-->", RegexOptions.Singleline | RegexOptions.Compiled), string.Empty));
             //<!--(?!\[if).*?-->
         }
 
